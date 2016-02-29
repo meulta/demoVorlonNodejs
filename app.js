@@ -1,5 +1,5 @@
 var vorlonWrapper = require("vorlon-node-wrapper");
-var serverUrl = "http://localhost:1337";
+var serverUrl = "http://vorlonjsnodejs.azurewebsites.net";
 var dashboardSession = "default";
 
 vorlonWrapper.start(serverUrl, dashboardSession, false);
