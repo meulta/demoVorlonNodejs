@@ -1,0 +1,24 @@
+{
+  "name": "demovorlonnode",
+  "version": "0.0.1",
+  "description": "Demo for node debugging from Vorlon",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meulta/demoVorlonNodejs.git"
+  },
+  "author": "Etienne Margraff <etienne.margraff@live.fr> (http://www.vorlonjs.io)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meulta/demoVorlonNodejs/issues"
+  },
+  "homepage": "https://github.com/meulta/demoVorlonNodejs#readme",
+  "dependencies": {
+    "socket.io-client": "^1.3.7",
+    "vorlon-node-wrapper": "0.0.2",
+    "xhr2": "^0.1.3"
+  }
+}
